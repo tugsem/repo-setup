@@ -1,0 +1,34 @@
+html{
+ min-height: 100vh;
+}
+
+body{
+    
+}
+/* 
+#img-div{
+
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 150px;
+} */
+
+#img-div{
+    text-align: center;
+    display: block;
+    filter: grayscale(100%);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+ 
+img{
+   padding-top: 10px;
+   max-height: auto;
+   width: 100%;
+   height: 100%;
+   max-width: 330px;
+   position: inherit;
+}
